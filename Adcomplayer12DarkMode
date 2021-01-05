@@ -9,7 +9,7 @@
      
    a:link{
         Text-decoration:none;
-        Color:White;
+        Color:black;
         float:left;
         display:block;
        font-size:17px;
@@ -18,45 +18,58 @@
         
 }
     a:visited{
-        Color:White;
+        Color:black;
     }
     a:hover{
-        Color:black;
+        Color:white;
     }
     a.active{
        background-color:#33ccff;
         
     }
         body{
-         background-color:white;
+         background-color:black;
          margin: 2px;
         }
     h1{
             color:#33ccff;
             text-align:Center;
         }
+    h2{
+    		color:white;
+            text-align:left;
+        }
+    
+    
+    h6{
+    		color:white;
+            text-align:left;
+        }      
         
-     
+    h8{
+    		color:white;
+            text-align:Center;
+        }
     
         .header{
-            Background-color:#C9C9C9 ;
+            Background-color:#404040;
             height:100px;
             overflow: hidden;
         }
        
            .topnav {
          overflow: hidden;
-         background-color: #333;
+         background-color: #C9C9C9;
     }
           .content{
-        Background-color:white;
+        Background-color:black;
         height:400px;
          overflow: hidden;
       }
       
       
        .footer{
-              Background-color:#C9C9C9;
+              Background-color:#404040;
               height:150px;
               overflow: hidden;
           }
@@ -88,10 +101,10 @@
       
 <div class='content'>
     
- Denne nettsiden er om El-biler, om at de egentlig ikke er så gode.<br> <br>
- El-biler er dårlige fordi de har dårlig kvalitet. De er ødelagte med en gang de kræsjer.
+ <H8>Denne nettsiden er om El-biler, om at de egentlig ikke er så gode.</H8><br> <br>
+ <H8>El-biler er dårlige fordi de har dårlig kvalitet. De er ødelagte med en gang de kræsjer.
  Nissan f.eks de lager bilene sine sånn at de uansett skal bli ødelagte etter at garantien
- går ut.
+ går ut.</H8>
 
 
 <img src="https://image.forskning.no/121107.jpg?imageId=121107&width=1058&height=604" alt="Elbiler" style="width:400px;height:200px;">
